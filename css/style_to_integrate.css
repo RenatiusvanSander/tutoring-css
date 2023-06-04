@@ -1,6 +1,6 @@
 /* common styles */
 html {
-    font-size: 62.5%;
+    font-size:100%;
     box-sizing: border-box;
 }
 
@@ -12,17 +12,17 @@ body {
 /* end of common styles */
 
 /* navbar */
+
 /* sidebar */
 .sidebar {
     width: 8rem;
     height: 100%;
-    background-color: #eee;
+    background-color: aliceblue;
     position: fixed;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; /** changes flex-direction in vertical */
     align-items: center;
-    z-index: 10;
 }
 
 .menu-icon {
@@ -31,15 +31,15 @@ body {
 }
 
 .line {
-    height: .2rem;
     width: 2.5rem;
+    height: .2rem;
     background-color: #222;
     margin-bottom: .6rem;
 }
 
 .line-1, .line-3 {
     width: 1.8rem;
-    transition: all .4s;
+    transition: width .3s;
 }
 
 .menu-icon:hover .line {
@@ -47,7 +47,7 @@ body {
 }
 
 .social-icons-list {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     height: 25rem;
     display: flex;
@@ -58,12 +58,14 @@ body {
 
 .social-link {
     font-size: 2rem;
-    color: #777;
+    color: #2b0b85;
     transition: color .3s;
 }
 
 .social-link:hover {
-    color: #deaa86;
+    color: black;
+    font-weight: 400;
+    border: 2px solid #2b0b85 ;
 }
 
 .year {
@@ -75,24 +77,25 @@ body {
 
 /* navigation */
 .navigation {
+    margin-left: 8rem;
     position: fixed;
     width: 40rem;
     height: 100%;
-    background: linear-gradient(to top, rgba(34, 32, 41, 1), rgba(34, 32, 41, .8)) ,url(../img/nav-bg.jpeg) center no-repeat;
-    background-size: cover;
+    background: linear-gradient(to top, transparent, #92d4ff, rgba(0,0,0,0.05)), url(../img/background-navigation_3.svg) center no-repeat rgba(255, 255, 255, 0.005);
+    background-position: 10% 70%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between; /* changes flex-direction in vertical */
     align-items: center;
     transition: left .8s cubic-bezier(1, 0, 0, 1);
 }
 
 .navigation-heading {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefins Sans', sans-serif;
     font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
-    color: #deaa86;
+    color: #2b0b85;
     text-align: center;
 }
 
@@ -103,29 +106,29 @@ body {
 .navigation-search-input {
     width: 30rem;
     padding: 1rem 2rem;
-    background-color: rgba(0, 0, 0, .3);
+    background-color: rgba(250,243,255,.75);
     font-family: 'Josefin Sans', sans-serif;
     font-size: 1.6rem;
-    color: #deaa86;
+    color: #2b0b85;
     letter-spacing: .1rem;
     outline: none;
-    border: .1rem solid #555;
+    border: .1rem solid #2b0b85;
     border-radius: 10rem;
     transition: background-color .3s;
 }
 
 .navigation-search-input:focus {
-    background-color: rgba(0, 0, 0, .1);
+    background-color: regba(0, 0, 0, .1);
 }
 
 .navigation-search-btn {
     border: none;
     background-color: transparent;
-    color: #deaa86;
+    color: #2b0b85;
     font-size: 1.7rem;
     position: absolute;
     top: 1rem;
-    right: 1rem;
+    right: 6.3rem;
     cursor: pointer;
 }
 
@@ -134,7 +137,7 @@ body {
 }
 
 .navigation-list {
-    list-style: none;
+    list-style-type: none;
     padding: 0;
     height: 28rem;
     display: flex;
@@ -148,7 +151,7 @@ body {
 }
 
 .navigation-link {
-    color: #fff;
+    color: #2b0b85;;
     font-size: 1.6rem;
     font-weight: 400;
     letter-spacing: .1rem;
@@ -159,9 +162,9 @@ body {
 
 .navigation-link::before {
     content: "";
-    width: 0rem;
+    width: 3rem;
     height: .1rem;
-    background-color: #deaa86;
+    background-color: #2b0b85;
     position: absolute;
     top: 1rem;
     left: -4rem;
@@ -172,7 +175,7 @@ body {
     content: "";
     width: 0rem;
     height: .1rem;
-    background-color: #deaa86;
+    background-color: #2b0b85;
     position: absolute;
     top: 1rem;
     right: -4rem;
@@ -180,7 +183,7 @@ body {
 }
 
 .navigation-link:hover {
-    color: #deaa86;
+    color: #2b0b85;
 }
 
 .navigation-link:hover::before,
@@ -193,5 +196,6 @@ body {
     font-size: 1.2rem;
     margin-bottom: 1.5rem;
 }
-/* end of navigation */
+/* end of navigation*/
+
 /* end of navbar */
