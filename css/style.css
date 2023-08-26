@@ -82,7 +82,7 @@ body {
     left: -32rem;
     width: 40rem;
     height: 100%;
-    background: linear-gradient(to top, transparent, #92d4ff, rgba(0,0,0,0.05)), url(../img/background-navigation_3.svg) center no-repeat rgba(255, 255, 255, 0.005);
+    background: linear-gradient(to top, transparent, #92d4ff, rgba(0,0,0,0.95)), url(../img/background-navigation_3.svg) center no-repeat rgba(255, 255, 255, 0.005);
     background-position: 10% 70%;
     display: flex;
     flex-direction: column;
@@ -96,7 +96,7 @@ body {
     font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
-    color: #2b0b85;
+    color: #e9f3f9;
     text-align: center;
 }
 
@@ -106,6 +106,7 @@ body {
 
 .navigation-search-input {
     width: 30rem;
+    margin: 0 5rem 0 5rem;
     padding: 1rem 2rem;
     background-color: rgba(250,243,255,.75);
     font-family: 'Josefin Sans', sans-serif;
@@ -223,7 +224,7 @@ body {
 .header {
     margin-left: 8rem;
     height: 100vh;
-    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.5)), url(../img/background-navigation.png) center no-repeat;
+    background: linear-gradient(to top, rgba(0,0,0,.6), rgba(0,0,0,.5)), url(../img/background-main-site.jpg) center no-repeat;
     background-size: cover;
 }
 
@@ -274,11 +275,13 @@ body {
     outline: none;
     background: linear-gradient(to right, rgb(28, 84, 133), rgb(164, 204, 238));
     cursor: pointer;
+    border: 1px solid #1c5485;
     animation: anim 1s 1s backwards;
 }
 
 .banner-button:hover {
     background: linear-gradient(to left,  rgb(28, 84, 133), rgb(164, 204, 238));
+    border: 1px solid #92d4ff;
 }
 
 .banner-button:active {
@@ -299,7 +302,7 @@ body {
 .about-us {
     margin-left: 8rem;
     display:flex;
-    background-color: #ddd;
+    background-color: #ececff;
 }
 
 .about-us-content {
@@ -310,6 +313,7 @@ body {
     align-items: center;
     padding: 10rem;
     box-sizing: border-box;
+    border: 1px solid #0f9af7; 
 }
 
 .about-us-heading {
@@ -317,13 +321,13 @@ body {
     font-size: 4rem;
     font-weight: 300;
     text-transform: uppercase;
-    color: #555;
+    color: #003380;
 }
 
 .small-underline {
     width: 9rem;
     height: .1rem;
-    background-color: #b85d1c;
+    background-color: #80b3ff;
     margin: 0 auto 1rem auto;
 
 }
@@ -331,14 +335,14 @@ body {
 .big-underline {
     width: 9rem;
     height: .1rem;
-    background-color: #b85d1c;
+    background-color: #80b3ff;
 }
 
 .sub-heading {
     font-size: 3.5rem;
     font-weight: 300;
     letter-spacing: .2rem;
-    color: #b85d1c;
+    color: #3385ff;
 }
 
 .about-us-paragraph {
@@ -355,9 +359,9 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 1.2rem;
     text-transform: uppercase;
-    color: #b85d1c;
+    color: #0066cc;
     background-color: transparent;
-    border: 1rem solid #b85d1c;
+    border: 1rem solid #000066;
     outline: none;
     cursor: pointer
 }
