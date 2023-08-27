@@ -472,4 +472,22 @@ body {
     align-items: center;
     transition: left .8s cubic-bezier(1, 0, 0, 1);
 }
+
+.checkbox:checked ~ .navigation--2 {
+    left: 8rem;
+}
+
+.checkbox:checked ~ .sidebar--2 .line-1 {
+    transform: rotate(-405deg) translate(-12px, 6px);
+    width: 2.5rem;
+}
+
+.checkbox:checked ~ .sidebar--2 .line-2 {
+    opacity: 0;
+}
+
+.checkbox:checked ~ .sidebar--2 .line-3 {
+    transform: rotate(405deg) translate(-12px, -6px);
+    width: 2.5rem;
+}
 /* end of responsive CSS classes */
