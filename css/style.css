@@ -406,3 +406,70 @@ body {
     transform: translate(-30%, -30%);
 }
 /* end of about us */
+
+/* responsive CSS classes */
+.responsive-container {
+    display: grid;
+    background-color:/* #9ccae9*/ #ddd;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 8.05rem auto;
+}
+
+.responsive-navbar {
+    display: none;
+    grid-column: 1 /2;
+    grid-row: 1/1;
+}
+
+.responsive-sidebar {
+    display: grid;
+    background-color: blueviolet;
+    grid-column: 1 / 1;
+    grid-row: 1/1;
+    width: 25%;
+    height: 90vh;
+}
+
+.responsive-main {
+    display: grid;
+    background-color: #000066;
+    grid-column: 2/2;
+    grid-row: 1/1;
+    height: 90vh;
+}
+
+.responsive-footer{
+    display: grid;
+    background-color: #555;
+    grid-column: 1/3;
+    grid-row: 2/2;
+    z-index: 11;
+    height: 10vh;
+}
+
+.sidebar--2 {
+    width: 8rem;
+    background-color: aliceblue;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /** changes flex-direction in vertical */
+    align-items: center;
+    z-index: 10;
+    height: 90vh;
+}
+
+.navigation--2 {
+    position: fixed;
+    left: -32rem;
+    width: 40rem;
+    height: 90vh;
+    background: linear-gradient(to top, transparent, #92d4ff, rgba(0,0,0,0.95)), url(../img/background-navigation_3.svg) center no-repeat rgba(255, 255, 255, 0.005);
+    background-position: 10% 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* changes flex-direction in vertical */
+    align-items: center;
+    transition: left .8s cubic-bezier(1, 0, 0, 1);
+}
+/* end of responsive CSS classes */
