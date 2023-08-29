@@ -325,17 +325,17 @@ body {
 }
 
 .small-underline {
-    width: 9rem;
+    width: 21.7em;
     height: .1rem;
     background-color: #80b3ff;
     margin: 0 auto 1rem auto;
-
 }
 
 .big-underline {
-    width: 9rem;
-    height: .1rem;
+    width: 35.4rem;
+    height: .15rem;
     background-color: #80b3ff;
+    margin: 0 auto 1rem auto;
 }
 
 .sub-heading {
@@ -385,9 +385,11 @@ body {
 .image {
     width: 32rem;
     position: absolute;
+    top: 50%;
+    left: 50%;
     box-shadow: 0 3rem 6rem, rgba(0,0,0,.4);
     border-radius: .4rem;
-    border: .2rem solid #b85d1c;
+    border: .2rem solid #0066cc;
 }
 
 .image-1 {
