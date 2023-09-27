@@ -420,7 +420,7 @@ body {
 	padding: 1rem;
 	font-size:1.4rem;
 	color: #fff;
-	background: linear-gradient(to top, #00154c, #)12376e, #23487f;
+	background: linear-gradient(to top, #00154c, #12376e, #23487f);
 	border: none;
 	border-radius: 5rem;
 	text-transform: uppercase;
@@ -429,16 +429,14 @@ body {
 }
 
 .day-offer-btn:hover {
-	grid-column: 3 / -1;
-	grid-row: 4 / -1;
-	width: 100%;
-	align-self:end;
+	box-shadow: .2rem .2rem 2rem #777;
 }
 
 .day-offer-img-two {
 	grid-column: 3 / -1;
 	grid-row: 4 / -1;
 	width: 100%;
+    align-self: end;
 }
 /* end of day offer */
 
