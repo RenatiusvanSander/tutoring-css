@@ -300,9 +300,10 @@ body {
 
 /* about us */
 .about-us {
-    margin-left: 8rem;
-    display:flex;
+    margin: 2rem 0 2rem 8rem;
+    display: flex;
     background-color: #cde0f9;
+    border: 1px solid #0f9af7;
 }
 
 .about-us-content {
@@ -313,7 +314,8 @@ body {
     align-items: center;
     padding: 10rem;
     box-sizing: border-box;
-    border: 1px solid #0f9af7; 
+    border: 1px solid #0f9af7;
+    max-width: 886.4px;
 }
 
 .about-us-heading {
@@ -364,6 +366,23 @@ body {
     border: 1rem solid #000066;
     outline: none;
     cursor: pointer
+}
+
+.endorse-btn {
+    width: 15rem;
+    padding: .7rem .5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #0066cc;
+    background-color: transparent;
+    border: 0.25rem solid white;;
+    outline: none;
+    cursor: pointer
+}
+
+.endorse-btn:hover .btn-arrow {
+    margin-left: 1.5rem;
 }
 
 .btn-arrow {
@@ -670,3 +689,48 @@ body {
     text-decoration: none;
     cursor: pointer;
 }
+
+/* start educational establishment */
+.educational-establishment-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.educational-establishment-tile {
+    width: 37%;
+    height: 60px;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    font-weight: 600;
+    border: 3px solid #363f69;
+    transition: all 0.7s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+.educational-establishment-tile--end {
+    margin-bottom: 0
+}
+
+.educational-establishment-tile:hover,
+.educational-establishment-tile:focus {
+    border: 3px solid #5867ac;
+    color:#0000f3;
+}
+
+/* end of educational establishment */
+
+/* start of disclaimer */
+.text-left {
+    text-align: left;
+}
+
+.disclaimer-context {
+    text-align: left;
+    font-weight: 400;
+}
+
+.disclaimer-context h2 {
+    text-align: center;
+}
+/* end of disclaimer */
