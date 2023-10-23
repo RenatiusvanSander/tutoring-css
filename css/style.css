@@ -346,8 +346,22 @@ body {
     margin: 0 auto 1rem auto;
 }
 
+.small-underline-2 {
+    width: 35.7em;
+    height: .1rem;
+    background-color: #80b3ff;
+    margin: 0 auto 1rem auto;
+}
+
 .big-underline {
     width: 35.4rem;
+    height: .15rem;
+    background-color: #80b3ff;
+    margin: 0 auto 1rem auto;
+}
+
+.big-underline-2 {
+    width: 53.4rem;
     height: .15rem;
     background-color: #80b3ff;
     margin: 0 auto 1rem auto;
@@ -788,5 +802,32 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
+}
+
+@media(max-width: 1680px) {
+    .tutoring-heading {
+        margin: 0;
+        color: #e8e4ffcf;
+    }
+
+    .banner {
+        max-height: 39rem;
+    }
+
+    .navigation--2 {
+        top: -43.3rem;
+    }
+
+    .footer-form {
+        margin: 0;
+    }
+
+    .practices {
+        max-width: 26rem;
+    }
+
+    .footer-list-wrapper {
+        justify-content: left;
+    }
 }
 /* end of navbar2 */
