@@ -803,6 +803,7 @@ body {
     margin: 0;
     padding: 0;
 }
+/* end of navbar2 */
 
 @media(max-width: 1680px) {
     .tutoring-heading {
@@ -830,4 +831,365 @@ body {
         justify-content: left;
     }
 }
-/* end of navbar2 */
+
+@media (max-width: 1400px) {
+    .tutoring-heading {
+        margin: 0;
+        color: #e8e4ffcf;
+    }
+
+    .banner {
+        max-height: 39rem;
+    }
+
+    .navigation--2 {
+        top: -43.3rem;
+    }
+
+    .footer-form {
+        margin: 0;
+    }
+
+    .practices {
+        max-width: 26rem;
+    }
+
+    .footer-list-wrapper {
+        justify-content: left;
+    }
+
+    .navbar2-grid {
+        grid-column: 30 / 36;
+    }
+
+    .about-us {
+        border: none;
+    }
+
+    .image-wrapper {
+        width: 7rem;
+    }
+
+    .footer-image:hover {
+        transform: scale(1.5);
+        opacity: .8;
+    }
+}
+
+@media(max-width: 1250px) {
+    .practices {
+        max-width: 20rem;
+    }
+
+    .navbar2-grid {
+        grid-column: 22 / 36;
+    }
+    .banner {
+        max-height: 34rem;
+    }
+
+    .banner-heading {
+        font-size: 5rem;
+    }
+
+    .banner-paragraph {
+        font-size: 1.75rem;
+        font-weight: 400;
+    }
+
+    .banner-button {
+        width: 15rem;
+        padding: 0.6rem 1rem;
+    }
+
+    .about-us-content {
+        padding: 5rem;
+    }
+}
+
+@media(max-width: 1024px) {
+    .educational-establishment-content {
+        flex: 0 1 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 1rem;
+        box-sizing: border-box;
+        border: 1px solid #0f9af7;
+        width: 726.4px;
+    }
+
+    .educational-establishment-tile {
+        width: 30%;
+    }
+
+    .footer-input {
+        width: 10rem;
+        font-size: 1rem;
+    }
+
+    .footer-btn {
+        padding: 0.5rem;
+    }
+
+    .contact {
+        margin-left: 1rem;
+    }
+
+    .contact p {
+        font-size: 1.2rem;
+    }
+
+    .practices {
+        max-width: 17rem;
+    }
+
+    .copy-right-text p{
+        font-size: 1rem;
+        margin: 1rem 0 0 0;
+        padding: 0;
+    }
+
+    .text-right {
+        font-size: 1rem;
+    }
+
+    .navigation--2 {
+        top: -43.3rem;
+    }
+}
+
+@media(max-width:800px) {
+    .navigation--2 {
+        top: -90vh;
+        height: 90vh;
+    }
+
+    .navbar2-grid {
+        grid-column: 11 / 36;
+    }
+    
+    .responsive-navbar {
+        grid-row: 1/1;
+    }
+
+    .responsive-main {
+        grid-column: 1/1;
+        grid-row: 3/3;
+        background-color: transparent;
+    }
+
+    .responsive-footer {
+        grid-column: 1/1;
+        grid-row: 4/4;
+    }
+
+    .footer {
+        margin: 0;
+    }
+
+    .footer-input {
+        width: 7rem;
+        font-size: 0.9rem;
+    }
+
+    .footer-btn {
+        padding: 0.25rem;
+    }
+
+    .about-us {
+        margin: 0.5rem 0 0.5rem;
+    }
+
+    .navigation-heading {
+        display: none;
+    }
+
+    .navigation-search {
+        margin-top: 1rem;
+    }
+
+    .copyright {
+        margin-bottom: 0;
+        color: #102a91;
+    }
+
+    .navbar {
+        height: 540px;
+    }
+
+    .navigation-list {
+        align-items: flex-start;
+    }
+
+    .contact p {
+        font-size: 1rem;
+    }
+
+    .image-wrapper {
+        margin: 0;
+        width: 6rem;
+    }
+
+    .footer-image {
+        width: 80%;
+        height: 95%;
+    }
+
+    .responsive-footer {
+        width: 728.39px;
+    }
+}
+
+@media(max-width: 450px) {
+    .navigation-link {
+        font-size: 1.5rem;
+        text-wrap: wrap;
+    }
+
+    .hide-link {
+        display: none;
+    }
+
+    .show-link {
+        display: block;
+    }
+
+    .sidebar--2 {
+        width: 4rem;
+    }
+
+    .checkbox:checked ~ .navigation--2 {
+        left: 4rem;
+    }
+
+    .navigation--2 {
+        align-items: revert-layer;
+        width: 36rem;
+    }
+
+    .navigation-list {
+        margin-left: 80px;
+    }
+
+    .navigation-search-input {
+        margin: 0 0.75rem 0 0.75rem;
+        background-color: rgb(249 249 255 / 80%);
+        width:18.5rem;
+    }
+
+    .banner {
+        align-items: unset;
+    }
+
+    .brand {
+        flex-direction: column;
+    }
+
+    .tutoring-heading {
+        font-size: 2.25rem;
+        margin: 0.5rem;
+    }
+
+    .banner-button {
+        margin: 1rem 4.5rem 0;
+    }
+
+    .banner-paragraph {
+        margin: 0 1rem 0;
+        font-size: 1.55rem;
+    }
+
+    .banner-heading {
+        text-wrap: balance;
+    font-size: 3.5rem;
+    margin-left: 1.5rem;
+    }
+
+    .about-us {
+        flex-direction: column;
+        width: 405px;
+    }
+    .about-us-paragraph {
+        margin: 0;
+        width: 365px;
+    }
+
+    .about-us-content {
+        padding: 0;
+    }
+
+    .big-underline {
+        width: 75%;
+    }
+
+    .small-underline {
+        width: 60%;
+    }
+
+    .about-us-images {
+        display: None;
+    }
+
+    .about-us-btn {
+        border: 0.15rem solid #000066;
+        margin: 0.5rem 4rem 0.5rem;
+    }
+
+    .sub-heading {
+        display: none;
+    }
+
+    .about-us-heading {
+        font-size: 2rem;
+    }
+
+    .educational-establishment-wrapper {
+        flex-direction: column;
+    }
+
+    .educational-establishment-tile {
+        width: 40%;
+    }
+
+    .educational-establishment-tile {
+        margin-left: 5rem;
+    }
+
+    .educational-establishment-tile--end {
+        margin-bottom: 1rem;
+        margin-left: 5rem;
+    }
+
+    .educational-establishment-tile--start {
+        margin-top: 1rem;
+    }
+
+    .educational-establisment-heading {
+        margin-left: 3.5rem;
+    }
+
+    .main-part {
+        flex-direction: column;
+    }
+
+    .creator-part {
+        flex-direction: column;
+        align-items: unset;
+    }
+
+    .contact {
+        margin: 0;
+    }
+
+    .footer-heading-h3 {
+        text-align: left;
+        margin: 1rem 0 1rem;
+    }
+
+    .footer-form {
+        margin: 1rem 0 1rem;
+        padding-bottom: 0;
+    }
+}
