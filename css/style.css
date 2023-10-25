@@ -482,7 +482,6 @@ body {
 .footer-list-wrapper {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .footer-list {
@@ -830,6 +829,10 @@ body {
     .footer-list-wrapper {
         justify-content: left;
     }
+
+    .navbar2-grid {
+        grid-column: 14 / 36;
+    }
 }
 
 @media (max-width: 1400px) {
@@ -859,7 +862,7 @@ body {
     }
 
     .navbar2-grid {
-        grid-column: 30 / 36;
+        grid-column: 17 / 36;
     }
 
     .about-us {
@@ -882,8 +885,9 @@ body {
     }
 
     .navbar2-grid {
-        grid-column: 22 / 36;
+        grid-column: 16 / 36;
     }
+    
     .banner {
         max-height: 34rem;
     }
@@ -1076,7 +1080,7 @@ body {
     .navigation-search-input {
         margin: 0 0.75rem 0 0.75rem;
         background-color: rgb(249 249 255 / 80%);
-        width:18.5rem;
+        width:22rem;
     }
 
     .banner {
@@ -1172,6 +1176,8 @@ body {
 
     .main-part {
         flex-direction: column;
+        justify-content: unset;
+        align-items: center;
     }
 
     .creator-part {
@@ -1191,5 +1197,41 @@ body {
     .footer-form {
         margin: 1rem 0 1rem;
         padding-bottom: 0;
+    }
+
+    .navbar2 {
+        margin-left: 0;
+    }
+
+    .navbar2-grid {
+        grid-column: 1 /9;
+    }
+
+    .footer-list-item-2 {
+        margin-bottom: 0;
+    }
+
+    .responsive-footer {
+        width: 405px;
+    }
+
+    .image-wrapper {
+        width: 8.5rem;
+        height: 8.5rem;
+    }
+
+    .footer-image:hover {
+        transform: scale(1.1);
+        opacity: .8;
+    }
+
+    .footer-input {
+        width: 10rem;
+    }
+
+    .endorse-btn {
+        border: 0.15rem solid white;
+        padding: 0.5rem 0.5rem;
+        margin: 1rem 4rem 1rem;
     }
 }
