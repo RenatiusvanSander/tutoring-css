@@ -1,0 +1,88 @@
+
+@media (min-width:993px) {
+    .forbidden-card {
+        width: 49.99999%;
+        padding: 2% 3%;
+    }
+}
+@media (max-width:601px) {
+    .forbidden-card {
+        width: 85.99999%;
+        padding: 2% 3%;
+    }
+}
+
+.forbidden-box {
+    -webkit-text-size-adjust: 100%;
+    border: solid 1px #FFC0C7;
+    background-color: #FFC0C7;
+    border-radius: 5px;
+    padding: 24px;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+
+    h2 {
+        font-size: 45px;
+        font-weight: 700;
+        margin: 10px 0;
+        color: black;
+    }
+
+    h5 {
+        color: #3a3a3a;
+        margin: 10px 0;
+        font-weight: 400;
+        font-size: 18px;
+    }
+}
+
+.forbidden-box-text {
+    height: 70px;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.tutoring3-button {
+    background-color: #a0aef3;
+    border: none;
+    display: inline-block;
+    padding: 8px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: #0a2ff5;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.tutoring3-button--user-select-none {
+    user-select: none;
+}
+
+.dark-red-background {
+    background-color: #a52f1c;
+}
+
+.forbidden-button {
+    color: white;
+    font-size: 18px;
+    margin: auto;
+    display: block;
+    width: 200px;
+    border-radius: 25px;
+}
+
+.forbidden-button:hover {
+    background-color: #6b1102;
+}
+
+.tutoring3-margin-bottom {
+    margin-bottom: 16px;
+}
+
