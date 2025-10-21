@@ -70,7 +70,7 @@
 .custom-field.one input:not(:placeholder-shown),
 .custom-field.one input:focus {
   border-color: #1410db;
-  transition-delay: 0.1s
+  transition-delay: 0.1s;
 }
 
 .custom-field.one input.dirty + .placeholder,
