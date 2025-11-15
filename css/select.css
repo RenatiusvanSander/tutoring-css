@@ -13,6 +13,7 @@
 
     &, &::picker(select) {
         appearance: base-select;
+        margin-block-start: 0.5rem;
     }
 
     /*
