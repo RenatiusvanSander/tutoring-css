@@ -1,0 +1,36 @@
+.tutoring3-select {
+    appearance: none;
+    font: inherit;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    background-color: #444;
+    line-height: 1.6;
+
+    &:open {
+        background-color: #444;
+    }
+
+    /*
+    ::picker {
+    }
+    */
+    option {
+        background-color: #444;
+
+        /*
+        ::checkmark {}
+
+        :checked {
+        }
+        */
+    }
+
+    /*
+    selectedcontent
+    */
+
+    /*
+    ::picker(select)
+    */
+}
