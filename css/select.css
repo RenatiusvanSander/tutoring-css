@@ -11,6 +11,10 @@
         background-color: #444;
     }
 
+    &, &::picker(select) {
+        appearance: base-select;
+    }
+
     /*
     ::picker {
     }
